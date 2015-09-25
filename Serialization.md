@@ -166,7 +166,7 @@ All graphs are expressed in an array inside the default graph. The [context](htt
   ]
  }
 ```
-See in [JSON-LD playground](http://tinyurl.com/pmn8mcp)
+See in [JSON-LD playground](http://tinyurl.com/o877ky6)
 
 #### Mixing shared and 'internal' contexts
 
@@ -192,7 +192,7 @@ Besides the shared context, each graph can define own its own context. Duplicate
     {
     "@id": "http://example.org/graphs/1",
     "generatedAt": "2015-01-15",
-    "recordedAt": "2015-01-17,
+    "recordedAt": "2015-01-17",
     "@graph":
     [
       {
@@ -232,7 +232,7 @@ Besides the shared context, each graph can define own its own context. Duplicate
   ]
  }
 ```
-See in [JSON-LD playground](http://tinyurl.com/nwmvpu6)
+See in [JSON-LD playground](http://tinyurl.com/pbcez6j)
 
 #### Graph 'n' is a blank node
 
@@ -290,7 +290,7 @@ Graph name can be a blank node by ommiting the "@id" keyword in the graph defini
   ]
  }
 ```
-See in [JSON-LD playground](http://tinyurl.com/o2gndo3)
+See in [JSON-LD playground](http://tinyurl.com/nbx6zql)
 
 ### Array of @graph keywords with NO shared context
 
@@ -353,10 +353,10 @@ All graphs are expressed in an array with no shared [context](http://www.w3.org/
         "@id": "http://example.org/person/Tara",
         "@type": "Person",
         "name": "Tara Athan",
-        "knows": "http://http://example.org/person/Alisdair"
+        "knows": "http://example.org/person/Alisdair"
       }
     ]
   }
  ]
 ```
-See in [JSON-LD playground](http://tinyurl.com/obea77x)
+See in [JSON-LD playground](http://tinyurl.com/ogh7sve)
