@@ -88,7 +88,7 @@ This section describes a potential [JSON-LD](http://www.w3.org/TR/json-ld/) seri
 
 **<http://example.org/graphs/1>**: 
 * Generated: 2015-01-15
-* Recorded: 2015-01-16
+* Recorded: 2015-01-17
 ```
 <http://example.org/person/Jean-Paul> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://example.org/person/Jean-Paul> <http://xmlns.com/foaf/0.1/knows> "http://example.org/person/Alasdair"  .
@@ -101,8 +101,8 @@ This section describes a potential [JSON-LD](http://www.w3.org/TR/json-ld/) seri
 ```
 
 **<http://example.org/graphs/2>**: 
-* Generated: 2015-01-17
-* Recorded: 2015-01-18
+* Generated: 2015-01-16
+* Recorded: 2015-01-17
 ```
 <http://example.org/person/Tara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
 <http://example.org/person/Tara> <http://xmlns.com/foaf/0.1/knows> "http://example.org/person/Alasdair"  ..
@@ -132,7 +132,7 @@ All graphs are expressed in an array inside the default graph. The [context](htt
     {
     "@id": "http://example.org/graphs/1",
     "generatedAt": "2015-01-15",
-    "recordedAt": "2015-01-16",
+    "recordedAt": "2015-01-17",
     "@graph":
     [
       {
@@ -151,8 +151,8 @@ All graphs are expressed in an array inside the default graph. The [context](htt
     },
     {
     "@id": "http://example.org/graphs/2",
-    "generatedAt": "2015-01-17",
-    "recordedAt": "2015-01-18",
+    "generatedAt": "2015-01-16",
+    "recordedAt": "2015-01-17",
     "@graph":
     [
       {
@@ -192,7 +192,7 @@ Besides the shared context, each graph can define own its own context. Duplicate
     {
     "@id": "http://example.org/graphs/1",
     "generatedAt": "2015-01-15",
-    "recordedAt": "2015-01-16",
+    "recordedAt": "2015-01-17,
     "@graph":
     [
       {
@@ -211,8 +211,8 @@ Besides the shared context, each graph can define own its own context. Duplicate
     },
     {
     "@id": "http://example.org/graphs/2",
-    "generatedAt": "2015-01-17",
-    "recordedAt": "2015-01-18",
+    "generatedAt": "2015-01-16",
+    "recordedAt": "2015-01-17",
     "@graph":
     [
       {
@@ -257,7 +257,7 @@ Graph name can be a blank node by ommiting the "@id" keyword in the graph defini
   [
     {
     "generatedAt": "2015-01-15",
-    "recordedAt": "2015-01-16",
+    "recordedAt": "2015-01-17",
     "@graph":
     [
       {
@@ -275,8 +275,8 @@ Graph name can be a blank node by ommiting the "@id" keyword in the graph defini
     ]
     },
     {
-    "generatedAt": "2015-01-17",
-    "recordedAt": "2015-01-18",
+    "generatedAt": "2015-01-16",
+    "recordedAt": "2015-01-17",
     "@graph":
     [
       {
@@ -313,7 +313,7 @@ All graphs are expressed in an array with no shared [context](http://www.w3.org/
    },
     "@id": "http://example.org/graphs/1",
     "generatedAt": "2015-01-15",
-    "recordedAt": "2015-01-16",
+    "recordedAt": "2015-01-17",
     "@graph":
     [
       {
@@ -345,8 +345,8 @@ All graphs are expressed in an array with no shared [context](http://www.w3.org/
     "knows": "http://xmlns.com/foaf/0.1/knows"
    },
      "@id": "http://example.org/graphs/2",
-   "generatedAt": "2015-01-17",
-    "recordedAt": "2015-01-18",
+   "generatedAt": "2015-01-16",
+    "recordedAt": "2015-01-17",
     "@graph":
     [
       {
